@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Create Account</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="grid"></div>
+
+    <div class="login-container">
+
+        <div class="logo">13</div>
+
+        <h1>CREATE ACCOUNT</h1>
+
+        <p class="subtitle">JOIN THE FUTURE</p>
+
+        <form id="registerForm">
+
+            <!-- Full Name -->
+            <div class="input-group">
+
+                <span class="icon">●</span>
+
+                <input
+                    type="text"
+                    id="fullname"
+                    placeholder=" "
+                    required
+                >
+
+                <label for="fullname">
+                    Full Name
+                </label>
+
+            </div>
+
+
+            <!-- Username -->
+            <div class="input-group">
+
+                <span class="icon">◉</span>
+
+                <input
+                    type="text"
+                    id="username"
+                    placeholder=" "
+                    required
+                >
+
+                <label for="username">
+                    Username
+                </label>
+
+            </div>
+
+
+            <!-- Date of Birth -->
+            <div class="input-group">
+
+                <span class="icon">▣</span>
+
+                <input
+                    type="date"
+                    id="birthdate"
+                    required
+                >
+
+                <label class="date-label" for="birthdate">
+                    Date of Birth
+                </label>
+
+            </div>
+
+
+            <!-- Password -->
+            <div class="input-group">
+
+                <span class="icon">◆</span>
+
+                <input
+                    type="password"
+                    id="password"
+                    placeholder=" "
+                    required
+                >
+
+                <label for="password">
+                    Password
+                </label>
+
+            </div>
+
+
+            <!-- Confirm Password -->
+            <div class="input-group">
+
+                <span class="icon">◆</span>
+
+                <input
+                    type="password"
+                    id="confirmPassword"
+                    placeholder=" "
+                    required
+                >
+
+                <label for="confirmPassword">
+                    Confirm Password
+                </label>
+
+            </div>
+
+
+            <!-- Terms -->
+            <div class="terms">
+
+                <label>
+
+                    <input
+                        type="checkbox"
+                        id="terms"
+                        required
+                    >
+
+                    <span>
+                        I agree to the
+                        <a href="#">
+                            Terms & Conditions
+                        </a>
+                    </span>
+
+                </label>
+
+            </div>
+
+
+            <!-- Create Account -->
+            <button
+                type="submit"
+                class="login-btn"
+            >
+                CREATE ACCOUNT
+            </button>
+
+
+            <!-- Status -->
+            <div id="status"></div>
+
+        </form>
+
+
+        <!-- Login -->
+        <div class="register">
+
+            Already have an account?
+
+            <a href="index.html">
+                Login
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <script src="register.js"></script>
+
+</body>
+
+</html>

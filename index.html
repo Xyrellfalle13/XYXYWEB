@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Futuristic Login</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.cSs">
+</head>
+
+<body>
+
+    <div class="grid"></div>
+
+    <div class="login-container">
+
+        <div class="logo">13</div>
+
+        <h1> WELCOME TO XYRELL WEBSITE</h1>
+
+        <p class="subtitle">AYAN MUNA DI KO ALAM PAPANGALAN KO </p>
+
+        <div id="successMessage"></div>
+
+        <form id="loginForm">
+
+            <!-- Username -->
+            <div class="input-group">
+                <span class="icon">◉</span>
+
+                <input
+                    type="text"
+                    id="username"
+                    placeholder=" "
+                    required
+                >
+
+                <label for="username">Username</label>
+            </div>
+
+            <!-- Password -->
+            <div class="input-group">
+                <span class="icon">◆</span>
+
+                <input
+                    type="password"
+                    id="password"
+                    placeholder=" "
+                    required
+                >
+
+                <label for="password">Password</label>
+            </div>
+
+            <!-- Options -->
+            <div class="options">
+
+                <label class="remember">
+                    <input type="checkbox">
+                    Remember me
+                </label>
+
+                <a href="#">Forgot Password?</a>
+
+            </div>
+
+            <!-- Login Button -->
+            <button type="submit" class="login-btn">
+                LOGIN
+            </button>
+
+            <!-- Status -->
+            <div id="status"></div>
+
+        </form>
+
+        <!-- Register -->
+        <div class="register">
+            Don't have an account?
+            <a href="register.html">Create Account</a>
+        </div>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
